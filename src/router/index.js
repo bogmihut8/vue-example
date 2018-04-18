@@ -3,6 +3,7 @@ import Router from 'vue-router'
 const Login = () => import('@/components/Login')
 const AlbumPage = () => import('@/components/AlbumPage')
 const Profile = () => import('@/components/Profile')
+const AdminPage = () => import('@/components/AdminPage')
 
 Vue.use(Router)
 
@@ -21,6 +22,10 @@ export default new Router({
     { path: '/albums/:id',
       name: "AlbumPage",  
       component: AlbumPage
+    },
+    { path: '/admin',
+      name: "AdminPage",  
+      component: AdminPage
     }
   ]
 })

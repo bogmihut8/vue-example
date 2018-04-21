@@ -1,6 +1,6 @@
 <template>
   <div id="comments-card">
-    <el-carousel :interval="5000" arrow="always" height="200px">
+    <el-carousel :interval="5000" indicator-position="none" height="200px">
       <el-carousel-item v-for="comment in comments" :key="comment.id">
         <el-card class="box-card" :body-style="{paddingTop:'10px'}">
             <div slot="header" class="clearfix">

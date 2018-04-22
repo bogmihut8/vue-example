@@ -5,7 +5,8 @@
   "author": "Bogdan Mihut <bogdan.mihut8@gmail.com>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --host $HOST --port $PORT --public $C9_HOSTNAME",
+    //"dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js --host $HOST --port $PORT --public $C9_HOSTNAME",
+    "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "build": "node build/build.js"
   },

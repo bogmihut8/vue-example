@@ -1,7 +1,8 @@
 <template>
   <div class="login">
     <el-row>
-      <el-col v-loading="loggingIn" :span="12" :offset="6" class="content"><div class="grid-content bg-purple-light">
+      <el-col :xs="2" :sm="3" :md="4" :lg="8">&nbsp;</el-col>
+      <el-col v-loading="loggingIn" :xs="20" :sm="18" :md="16" :lg="8" class="content"><div class="grid-content bg-purple-light">
         <img src="https://raw.githubusercontent.com/fscheck/FsCheck/master/docs/files/img/logo.png" width="100px">
         <el-form :model="login" status-icon ref="loginFormRef" class="loginForm">
           <el-form-item prop="user">
@@ -24,6 +25,7 @@
           
         </el-alert>
       </div></el-col>
+      <el-col :xs="2" :sm="3" :md="4" :lg="8">&nbsp;</el-col>
     </el-row>
   </div>
 </template>

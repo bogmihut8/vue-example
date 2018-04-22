@@ -3,7 +3,7 @@
     <el-card class="box-card">
       <div slot="header" class="clearfix">
         <span class="title">Todos</span>
-        <el-button style="float: right; padding: 3px 0" type="text">See more</el-button>
+        <!--<el-button style="float: right; padding: 3px 0" type="text">See more</el-button>-->
       </div>
       <div class="todo-card-body">
           <div v-for="todo in todos" class="text item">

@@ -19,6 +19,9 @@
              <p class="phone-text"><b>Company:</b> {{ profile.company.name }}</p>
              <p class="address-text smaller-text">"{{ profile.company.catchPhrase }}"</p>
              
+             <router-link tag="a" to='/posts'>
+                 <el-button class="see-more">Info</el-button>
+             </router-link>
              <router-link tag="a" to='/admin'>
                  <el-button type="primary" class="see-more">Admin options</el-button>
              </router-link>

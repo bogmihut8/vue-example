@@ -4,6 +4,7 @@ const Login = () => import('@/components/Login')
 const AlbumPage = () => import('@/components/AlbumPage')
 const Profile = () => import('@/components/Profile')
 const AdminPage = () => import('@/components/AdminPage')
+const PostsPage = () => import('@/components/PostsPage')
 
 Vue.use(Router)
 
@@ -26,6 +27,11 @@ export default new Router({
     { path: '/admin',
       name: "AdminPage",  
       component: AdminPage
+    }
+    ,
+    { path: '/posts',
+      name: "PostsPage",  
+      component: PostsPage
     }
   ]
 })
